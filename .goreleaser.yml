@@ -1,3 +1,4 @@
+project_name: supabase
 before:
   hooks:
     - go mod tidy
@@ -11,6 +12,7 @@ builds:
 changelog:
   skip: true
 brews:
-  tap:
-    owner: soedirgo
-    name: homebrew-test
+  - tap:
+      owner: soedirgo
+      name: homebrew-test
+    license: "MIT"
