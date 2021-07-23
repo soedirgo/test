@@ -1,0 +1,16 @@
+before:
+  hooks:
+    - go mod tidy
+builds:
+  - id: supabase
+    binary: supabase
+    goos:
+      - darwin
+      - linux
+      - windows
+changelog:
+  skip: true
+brews:
+  tap:
+    owner: soedirgo
+    name: homebrew-test
