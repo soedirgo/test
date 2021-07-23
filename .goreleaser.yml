@@ -14,5 +14,14 @@ changelog:
 brews:
   - tap:
       owner: soedirgo
-      name: homebrew-test
-    license: "MIT"
+      name: homebrew-tap
+    description: Supabase CLI
+    homepage: https://supabase.io
+    license: MIT
+scoop:
+  bucket:
+    owner: soedirgo
+    name: scoop-bucket
+  description: Supabase CLI
+  homepage: https://supabase.io
+  license: MIT
