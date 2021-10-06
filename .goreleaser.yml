@@ -15,13 +15,19 @@ brews:
   - tap:
       owner: soedirgo
       name: homebrew-tap
-    description: Supabase CLI
+    commit_author:
+      name: Bobbie Soedirgo
+      email: bobbie@soedirgo.dev
     homepage: https://supabase.io
+    description: Supabase CLI
     license: MIT
 scoop:
   bucket:
     owner: soedirgo
     name: scoop-bucket
-  description: Supabase CLI
+  commit_author:
+    name: Bobbie Soedirgo
+    email: bobbie@soedirgo.dev
   homepage: https://supabase.io
+  description: Supabase CLI
   license: MIT
